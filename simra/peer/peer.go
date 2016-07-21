@@ -109,6 +109,19 @@ func (glpeer *GLPeer) LoadTexture(assetName string, rect image.Rectangle) sprite
 	return sprite.SubTex{t, rect}
 }
 
+// LoadTextureFromImage return texture that is loaded by the information of arguments.
+// Loaded texture can assign using AddSprite function.
+func (glpeer *GLPeer) LoadTextureFromImage(img image.Image, rect image.Rectangle) sprite.SubTex {
+	LogDebug("IN")
+	t, err := glpeer.eng.LoadTexture(img)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	LogDebug("OUT")
+	return sprite.SubTex{t, rect}
+}
+
 // Finalize finalizes GLPeer.
 // This is called at termination of application.
 func (glpeer *GLPeer) Finalize() {

@@ -3,8 +3,8 @@ package scene
 import (
 	"image"
 
-	"github.com/pankona/gomo-simra/examples/sample3/scene/config"
-	"github.com/pankona/gomo-simra/simra"
+	"github.com/telecoda/gomo-simra/examples/sample3/scene/config"
+	"github.com/telecoda/gomo-simra/simra"
 )
 
 // Ball represents a ball

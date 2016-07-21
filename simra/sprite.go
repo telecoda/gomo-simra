@@ -3,7 +3,7 @@ package simra
 import (
 	"image"
 
-	"github.com/pankona/gomo-simra/simra/peer"
+	"github.com/telecoda/gomo-simra/simra/peer"
 )
 
 // Sprite represents a sprite object.

@@ -3,8 +3,8 @@ package simra
 import (
 	"image"
 
-	"github.com/pankona/gomo-simra/simra/gomo"
-	"github.com/pankona/gomo-simra/simra/peer"
+	"github.com/telecoda/gomo-simra/simra/gomo"
+	"github.com/telecoda/gomo-simra/simra/peer"
 )
 
 // Simra is a struct that provides API interface of simra

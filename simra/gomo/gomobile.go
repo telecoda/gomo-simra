@@ -3,7 +3,7 @@
 package gomo
 
 import (
-	"github.com/pankona/gomo-simra/simra/peer"
+	"github.com/telecoda/gomo-simra/simra/peer"
 
 	_ "image/jpeg" // must be imported here to treat jpeg
 	_ "image/png"  // must be imported here to treat transparent of png

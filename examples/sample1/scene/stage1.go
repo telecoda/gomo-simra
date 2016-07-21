@@ -4,7 +4,7 @@ import (
 	"image"
 	"math"
 
-	"github.com/pankona/gomo-simra/simra"
+	"github.com/telecoda/gomo-simra/simra"
 )
 
 // Stage1 represents a scene of Stage1

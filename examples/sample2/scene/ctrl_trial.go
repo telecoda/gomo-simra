@@ -4,8 +4,8 @@ import (
 	"image"
 	"math"
 
-	"github.com/pankona/gomo-simra/examples/sample2/scene/config"
-	"github.com/pankona/gomo-simra/simra"
+	"github.com/telecoda/gomo-simra/examples/sample2/scene/config"
+	"github.com/telecoda/gomo-simra/simra"
 )
 
 // CtrlTrial represents a scene object for CtrlTrial

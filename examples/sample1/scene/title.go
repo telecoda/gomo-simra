@@ -3,7 +3,7 @@ package scene
 import (
 	"image"
 
-	"github.com/pankona/gomo-simra/simra"
+	"github.com/telecoda/gomo-simra/simra"
 )
 
 // Title represents a scene object for Title

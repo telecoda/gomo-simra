@@ -3,8 +3,8 @@
 package main
 
 import (
-	"github.com/pankona/gomo-simra/examples/sample3/scene"
-	"github.com/pankona/gomo-simra/simra"
+	"github.com/telecoda/gomo-simra/examples/sample3/scene"
+	"github.com/telecoda/gomo-simra/simra"
 )
 
 func eventHandle(onStart, onStop chan bool) {
